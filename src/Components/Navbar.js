@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const NavigationBar = () => {
   return (
     <Navbar bg="primary" variant="dark" expand="lg"> {/* Ubah warna navbar */}
       <Container>
@@ -21,4 +21,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavigationBar;
