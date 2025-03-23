@@ -11,7 +11,7 @@ const App = () => {
   return (
     <Router>
       <NavigationBar />
-      <div className="container mt-3">
+      <div className="container mt-3"> {/* Berbeda dari dev */}
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/authordetails" element={<AuthorDetails />} />
