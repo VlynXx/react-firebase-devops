@@ -10,7 +10,7 @@ const App = () => {
   return (
     <Router>
       <NavigationBar />
-      <div className="container mt-3">
+      <div className="container mt-5"> {/* Ubah margin-top */}
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/authordetails" element={<AuthorDetails />} />
