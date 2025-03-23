@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavigationBar from "./Components/NavigationBar";
-import Footer from "./Components/Footer";  // Tambahkan import Footer
+import Footer from "./Components/Footer";  // Tambahkan Footer
 import Home from "./Home";
 import AuthorDetails from "./AuthorDetails";
 import Contact from "./Contact";
@@ -18,9 +18,9 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
-      <Footer />  {/* Tambahkan Footer di sini */}
+      <Footer /> {/* Tambahkan Footer */}
     </Router>
   );
 };
 
-export default App
+export default App;
